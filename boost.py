@@ -102,7 +102,7 @@ class Boost():
         self.hub.motor_AB.stop()
         
 
-    def Disconnetc(self):
+    def Disconnet(self):
         self.hub.tilt_sensor.unsubscribe(callback_tilt_sensor)
         self.hub.motor_A.unsubscribe(callback_motor_A)
         self.hub.motor_B.unsubscribe(callback_motor_B)

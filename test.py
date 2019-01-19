@@ -21,4 +21,4 @@ try:
 
 
 finally:
-    bst.Stop()
+    bst.Disconnect()
